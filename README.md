@@ -24,6 +24,7 @@ This is a React project practice.
 npx create-react-app react-quizzical-app
 npm i he
 npm i nanoid
+npm i react-confetti
 ```
 
 ## Run the App

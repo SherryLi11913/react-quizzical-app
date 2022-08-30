@@ -3,6 +3,7 @@ import { decode } from 'he';
 import { nanoid } from 'nanoid';
 import './Questions.css';
 import Question from './Question/Question';
+import Confetti from 'react-confetti';
 
 export default function Questions({questionSetting}) {
     const [questions, setQuestions] = React.useState([]);
@@ -130,6 +131,14 @@ export default function Questions({questionSetting}) {
                     </button>
                 }
             </div>
+
+            {
+                checkMode && numCorrectAnswers === questions.length && 
+                <Confetti
+                    width={window.innerWidth}
+                    height={window.innerHeight}
+                />
+            }
         </div>
     )
 };
