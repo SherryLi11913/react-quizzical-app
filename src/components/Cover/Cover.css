@@ -1,0 +1,64 @@
+.cover {
+    width: 100vw;
+    height: 100vh;
+    color: #293264;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.cover-title {
+    font-family: 'Karla';
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 37px;
+}
+
+.cover-description {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 7px 0 10px;
+}
+
+.question-setting > * {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.question-setting-option {
+    text-align: left;
+    margin: 20px 0;
+}
+
+.question-setting-option > * {
+    display: block;
+}
+
+.question-setting-tip {
+    margin: 0 0 5px;
+}
+
+.question-setting-input {
+    width: 100%;
+    width: -webkit-fill-available;
+    width: -moz-available;
+    width: stretch;
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #293264;
+    border-radius: 5px;
+    border: 1px solid #4D5B9E;
+}
+
+.question-setting-submit-button {
+    color: #F5F7FB;
+    background: #4D5B9E;
+    border-radius: 15px;
+    padding: 16px 56px;
+}

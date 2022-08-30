@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  background: #F5F7FB url("./assets/background.png") no-repeat center center fixed;
+  background-size: cover;
+}
+
+button {
+  border: 0;
+  cursor: pointer;
+}
+
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}

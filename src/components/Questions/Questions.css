@@ -1,0 +1,34 @@
+.questions-container {
+    margin: 22px 75px 32px;
+}
+
+.questions-list {
+    list-style: none;
+}
+
+.questions-result {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0 0;
+}
+
+.questions-result-button {
+    background: #4D5B9E;
+    border-radius: 10px;
+    color: #F5F7FB;
+    font-weight: 600;
+    font-family: 'Inter';
+    font-size: 10px;
+    line-height: 12px;
+    padding: 10px 22px;
+}
+
+.questions-result-check {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #293264;
+    margin: 0 20px 0 0;
+}
